@@ -6,7 +6,6 @@ from config import Config
 from loader import Loader
 from read_graph import load_dataset
 from lr import PolynomialDecayLR
-# from model_ import TransformerModel
 from model import TransformerModel
 from utils import laplacian_positional_encoding, cal_accuracy, multi_hop_adj, hierarchy_sampling, hop_nodes_dict, re_features, cal_average_time, load_sp
 from early_stop import EarlyStopping, Stop_args
